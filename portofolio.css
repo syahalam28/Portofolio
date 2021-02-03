@@ -1,0 +1,101 @@
+html{
+	position:relative;
+}
+body{
+	margin-bottom:100px;
+	margin-top: 30px;
+}
+.jumbotron{
+	background-image: url("picture/bca.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -200px; /*Mengatur posisi horizontal dan vertikal*/
+	color: #eaeaea;
+	overflow: hidden; /*Mengatur jika element keluar dari jumbotron makan akan di sembunyikan*/
+	height: 200%;
+
+}
+.jumbotron h1, .jumbotron p{
+color: #f8f8f8 
+text-shadow:1px 1px 10px rgba(0,0,0,0,5);
+
+}
+
+
+
+.jumbotron img{
+	width:200px;
+	border: 5px solid #eaeaea;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0,5);
+}
+ hr{
+ 	
+width: 20px;
+	border-top:4px solid #999
+
+
+}
+section{
+	min-height:400px;
+}
+/*Pengaturan About*/
+
+.pkiri, .pkanan{
+	opacity: 0;
+	transform: translate(-50px, 0) rotate(15deg);
+	transition: 1s;
+}
+
+.pkanan{
+	transform: translate(50px, 0) rotate(-15deg);
+}
+
+.pkiri.pmuncul,.pkanan.pmuncul{
+
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.portofolio{
+	background:#eee;
+}
+/*Menghilangkan Terlebih Dahulu Image Portofolio Lalu Memunculkannya Lagi*/
+.portofolio .img-thumbnail{
+	opacity: 0;
+	transform: translate(0,-40px);
+	transition: .5s;
+}
+
+.portofolio .img-thumbnail.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.row img{
+	width: 90%;
+	height: 80%;
+}
+.contact{
+	min-height:500px;
+}
+footer{
+		position:absolute;
+		bottom:0;
+		width:100%;
+		min-height:100px;
+		background-color :#333;
+		padding-top: 20px;
+
+}
+footer p{
+	color:#aaa;
+	font-size:0,9em;
+}
+.navbar-brand{
+	position: relative;
+}
+
+.contact{
+	background:white;
+	margin-bottom: 100px;
+}
+
