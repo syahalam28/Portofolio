@@ -36,7 +36,7 @@ width: 20px;
 
 }
 section{
-	min-height:400px;
+	min-height:500px;
 }
 /*Pengaturan About*/
 
@@ -83,7 +83,7 @@ footer{
 		width:100%;
 		min-height:100px;
 		background-color :#333;
-		padding-top: 20px;
+		padding-top: 100px;
 
 }
 footer p{
